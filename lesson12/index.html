@@ -10,10 +10,27 @@
 </head>
 
 <body>
+    <div class="loader-container">
+        <img src="pictures/Spinner@1x-1.0s-200px-200px.gif" alt="">
+    </div>
+
+    <script>
+        function loader() {
+            document.querySelector('.loader-container').
+                classList.add('active');
+        }
+
+        function fadeOut() {
+            setTimeout(loader, 2000);
+        }
+
+        fadeOut()
+    </script>
+
     <div class="wrapper1">
         <header class="header1">
 
-            <img src="pictures/pictures1.svg" alt="">
+            <img src="pictures/pictures1.svg" alt="runner">
 
             <nav class="nav1">
                 <a href="" class="home">Home</a>
@@ -103,55 +120,138 @@
 
 
 
-    <div class="container2">
-        <header class="header3">
-            <div class="block7">
-                <nav>
-                    <a href="" class="a1"> <span class="span8">All Plants</span> </a>
-                    <a href="" class="a2">New Arrivals</a>
-                    <a href="" class="a2">Sale</a>
-                </nav>
-            </div>
+    <div class="wrapper5">
+        <div class="categories">
+            <h2 class="h27">Categories</h2>
 
-            <div class="block8">
-                <p class="p12">Short by: Default sorting</p>
-            </div>
+            <ul class="ul4">
+                <a class="a4" href="">House Plants</a>
+                <a class="a4" href="">Potter Plants</a>
+                <a class="a4" href="">Small Plants</a>
+                <a class="a4" href="">Big Plants</a>
+                <a class="a4" href="">Succulents</a>
+                <a class="a4" href="">Trerrariums</a>
+                <a class="a4" href="">Gardening</a>
+                <a class="a4" href="">Accessories</a>
+            </ul>
+        </div>
 
-            <div class="block9">
-                <img src="pictures/pictures14.svg" alt="">
-            </div>
-        </header>
+        <div class="banner">
+            <img class="banner1" src="pictures/Super Sale Banner.svg" alt="">
+        </div>
 
-        <main class="main3">
-            <div class="block10">
-                <img src="pictures/pictures15.png" alt="">
-                <p class="p13">Barberton Daisy</p>
-                <p class="p14"> <span class="span8">$119.00</span> </p>
-            </div>
+        <div class="container2">
+            <header class="header3">
+                <div class="block7">
+                    <nav>
+                        <a href="" class="a1"> <span class="span8">All Plants</span> </a>
+                        <a href="" class="a2">New Arrivals</a>
+                        <a href="" class="a2">Sale</a>
+                    </nav>
+                </div>
 
-            <div class="block11">
-                <img src="pictures/pictures16.png" alt="">
-                <p class="p15">Angel Wing Begonia</p>
-                <p class="p16"> <span class="span8">$169.00</span> </p>
+                <div class="block8">
+                    <p class="p12">Short by: Default sorting</p>
+                </div>
 
-                <div class="frame1">
-                    <img src="pictures/pictures17.svg" alt="">
-                    <img src="pictures/pictures18.svg" alt="">
-                    <img src="pictures/pictures19.svg" alt="">
+                <div class="block9">
+                    <img src="pictures/pictures14.svg" alt="">
+                </div>
+            </header>
+
+            <main class="main3">
+                <div class="block10">
+                    <img src="pictures/pictures15.png" alt="">
+                    <p class="p13">Barberton Daisy</p>
+                    <p class="p14"> <span class="span8">$119.00</span> </p>
+                </div>
+
+                <div class="block11">
+                    <img src="pictures/pictures16.png" alt="">
+                    <p class="p15">Angel Wing Begonia</p>
+                    <p class="p16"> <span class="span8">$169.00</span> </p>
+
+                    <div class="frame1">
+                        <img src="pictures/pictures17.svg" alt="">
+                        <img src="pictures/pictures18.svg" alt="">
+                        <img src="pictures/pictures19.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="block12">
+                    <img src="pictures/pictures20.png" alt="">
+                    <p class="p17">African Violet</p>
+                    <p class="p18"> <span class="span8">$199.00</span> </p>
+
+                    <div>
+                        <p class="p19">13% OFF</p>
+                        <p class="p20">$229.00</p>
+                    </div>
+                </div>
+            </main>
+
+            <div class="wrapper3">
+                <div class="block10">
+                    <img src="pictures/pictures15.png" alt="">
+                    <p class="p13">Barberton Daisy</p>
+                    <p class="p14"> <span class="span8">$119.00</span> </p>
+                </div>
+
+                <div class="block11">
+                    <img src="pictures/pictures16.png" alt="">
+                    <p class="p15">Angel Wing Begonia</p>
+                    <p class="p16"> <span class="span8">$169.00</span> </p>
+
+                    <div class="frame1">
+                        <img src="pictures/pictures17.svg" alt="">
+                        <img src="pictures/pictures18.svg" alt="">
+                        <img src="pictures/pictures19.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="block12">
+                    <img src="pictures/pictures32.png" alt="">
+                    <p class="p17">Aluminum Plant</p>
+                    <p class="p18"> <span class="span8">$179.00</span> </p>
+
+                    <div>
+                        <p class="p19">13% OFF</p>
+                        <p class="p20">$229.00</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="block12">
-                <img src="pictures/pictures20.png" alt="">
-                <p class="p17">African Violet</p>
-                <p class="p18"> <span class="span8">$199.00</span> </p>
+            <div class="wrapper4">
+                <div class="block10">
+                    <img src="pictures/pictures33.png" alt="">
+                    <p class="p13">Bird's Nest Fern</p>
+                    <p class="p14"> <span class="span8">$99.00</span> </p>
+                </div>
 
-                <div>
-                    <p class="p19">13% OFF</p>
-                    <p class="p20">$229.00</p>
+                <div class="block11">
+                    <img src="pictures/pictures34.png" alt="">
+                    <p class="p15">Broadleaf Lady Palm</p>
+                    <p class="p16"> <span class="span8">$59.00</span> </p>
+
+                    <div class="frame1">
+                        <img src="pictures/pictures17.svg" alt="">
+                        <img src="pictures/pictures18.svg" alt="">
+                        <img src="pictures/pictures19.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="block12">
+                    <img src="pictures/pictures20.png" alt="">
+                    <p class="p17">African Violet</p>
+                    <p class="p18"> <span class="span8">$199.00</span> </p>
+
+                    <div>
+                        <p class="p19">13% OFF</p>
+                        <p class="p20">$229.00</p>
+                    </div>
                 </div>
             </div>
-        </main>
+        </div>
     </div>
 
 
