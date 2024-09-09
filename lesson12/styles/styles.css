@@ -1214,14 +1214,443 @@ input {
         display: inline;
     }
 
+    .wrapper1{
+        background-color: #ffffff;
+    }
+
     .left {
         position: relative;
         margin-left: 250px;
+        background-color: #ffffff;
     }
 
     .right {
         position: relative;
         margin-left: 300px;
+        background-color: #ffffff;
+    }
+
+    .header2 {
+        display: inline-block;
+    }
+
+    .block1 {
+        margin: 0 auto;
+    }
+
+    .block2 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .wrapper2 {
+        display: inline;
+    }
+
+    .block3 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block4 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block5 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block6 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .main3 {
+        display: inline-block;
+    }
+
+    .wrapper3 {
+        display: inline-block;
+    }
+
+    .wrapper4 {
+        display: inline-block;
+    }
+
+    .block10 {
+        margin: 0 auto;
+    }
+
+    .block11 {
+        margin: 0 auto;
+    }
+
+    .block12 {
+        margin: 0 auto;
+    }
+
+    .header4 {
+        display: inline-block;
+    }
+
+    .block13 {
+        margin: 0 auto;
+    }
+
+    .p21 {
+        padding-bottom: 50px;
+    }
+
+    .block14 {
+        display: none;
+    }
+
+    .block15 {
+        margin: 0 auto;
+    }
+
+    .block16 {
+        display: none;
+    }
+
+    .block17 {
+        margin: 0 auto;
+    }
+
+    .block18 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .main4 {
+        display: inline-block;
+    }
+
+    .block19 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block20 {
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .block21 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block22 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .main1 {
+        display: inline;
+    }
+
+    .wrapper1{
+        background-color: #ffffff;
+    }
+
+    .left {
+        position: relative;
+        margin-left: 250px;
+        background-color: #ffffff;
+    }
+
+    .right {
+        position: relative;
+        margin-left: 300px;
+        background-color: #ffffff;
+    }
+
+    .header2 {
+        display: inline-block;
+    }
+
+    .block1 {
+        margin: 0 auto;
+    }
+
+    .block2 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .wrapper2 {
+        display: inline;
+    }
+
+    .block3 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block4 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block5 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block6 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .main3 {
+        display: inline-block;
+    }
+
+    .wrapper3 {
+        display: inline-block;
+    }
+
+    .wrapper4 {
+        display: inline-block;
+    }
+
+    .block10 {
+        margin: 0 auto;
+    }
+
+    .block11 {
+        margin: 0 auto;
+    }
+
+    .block12 {
+        margin: 0 auto;
+    }
+
+    .header4 {
+        display: inline-block;
+    }
+
+    .block13 {
+        margin: 0 auto;
+    }
+
+    .p21 {
+        padding-bottom: 50px;
+    }
+
+    .block14 {
+        display: none;
+    }
+
+    .block15 {
+        margin: 0 auto;
+    }
+
+    .block16 {
+        display: none;
+    }
+
+    .block17 {
+        margin: 0 auto;
+    }
+
+    .block18 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .main4 {
+        display: inline-block;
+    }
+
+    .block19 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block20 {
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .block21 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block22 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 540px){
+    .main1 {
+        display: inline;
+    }
+
+    .wrapper1{
+        background-color: #ffffff;
+    }
+
+    .left {
+        position: relative;
+        margin-left: 250px;
+        background-color: #ffffff;
+    }
+
+    .right {
+        position: relative;
+        margin-left: 300px;
+        background-color: #ffffff;
+    }
+
+    .header2 {
+        display: inline-block;
+    }
+
+    .block1 {
+        margin: 0 auto;
+    }
+
+    .block2 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .wrapper2 {
+        display: inline;
+    }
+
+    .block3 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block4 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block5 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .block6 {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .main3 {
+        display: inline-block;
+    }
+
+    .wrapper3 {
+        display: inline-block;
+    }
+
+    .wrapper4 {
+        display: inline-block;
+    }
+
+    .block10 {
+        margin: 0 auto;
+    }
+
+    .block11 {
+        margin: 0 auto;
+    }
+
+    .block12 {
+        margin: 0 auto;
+    }
+
+    .header4 {
+        display: inline-block;
+    }
+
+    .block13 {
+        margin: 0 auto;
+    }
+
+    .p21 {
+        padding-bottom: 50px;
+    }
+
+    .block14 {
+        display: none;
+    }
+
+    .block15 {
+        margin: 0 auto;
+    }
+
+    .block16 {
+        display: none;
+    }
+
+    .block17 {
+        margin: 0 auto;
+    }
+
+    .block18 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .main4 {
+        display: inline-block;
+    }
+
+    .block19 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block20 {
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .block21 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .block22 {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 320px){
+    .main1 {
+        display: inline;
+    }
+
+    .wrapper1{
+        background-color: #ffffff;
+    }
+
+    .left {
+        position: relative;
+        margin-left: 250px;
+        background-color: #ffffff;
+    }
+
+    .right {
+        position: relative;
+        margin-left: 300px;
+        background-color: #ffffff;
     }
 
     .header2 {
